@@ -4,7 +4,7 @@
   "description": "A test suite for AngularJS with Karma, Mocha &amp; Chai",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/karma/bin/karma start"
+    "test": "./node_modules/.bin/karma start --single-run --browsers PhantomJS"
   },
   "repository": {
     "type": "git",
