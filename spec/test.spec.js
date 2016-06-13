@@ -16,4 +16,7 @@ describe("Print name", function() {
   it('should return string with name', function() { 
     expect(getName('Rasmus')).to.be.a('string');
   });
+  it('should have atleast 3 chars', function() { 
+    expect(getName('Rasmus')).to.have.length.of.at.least(3);
+  });
 });
