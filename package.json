@@ -1,0 +1,27 @@
+{
+  "name": "AngularJS-Karma-Mocha-Chai",
+  "version": "1.0.0",
+  "description": "A test suite for AngularJS with Karma, Mocha &amp; Chai",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Walraz/AngularJS-Karma-Mocha-Chai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Walraz/AngularJS-Karma-Mocha-Chai/issues"
+  },
+  "homepage": "https://github.com/Walraz/AngularJS-Karma-Mocha-Chai#readme",
+  "devDependencies": {
+    "karma": "^0.13.22",
+    "karma-chai": "^0.1.0",
+    "karma-mocha": "^1.0.1",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "phantomjs-prebuilt": "^2.1.7"
+  }
+}
